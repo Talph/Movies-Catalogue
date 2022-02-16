@@ -1,0 +1,47 @@
+.list-view .column-list {
+	width: 100%;
+	padding: 15px;
+	display: inline-block;
+}
+
+.list-view .card-container .image-container {
+	width: 15%;
+	float: left;
+	margin-right: 3%;
+}
+
+.list-view .card-container .card-content {
+	width: 75%;
+	float: left;
+}
+
+.list-view .content {
+	display: block;
+	color: #fff;
+}
+
+.list-view .title {
+	line-height: normal;
+}
+
+.list-view .ratings {
+	margin-top: 15px;
+}
+
+.list-view .displayOnList {
+	display: block;
+}
+
+@media only screen and (max-width: 768px) {
+	.list-view .card-container .image-container {
+		width: 100%;
+		float: none;
+		margin-right: auto;
+	}
+
+	.list-view .card-container .card-content {
+		width: 100%;
+		float: none;
+		margin-top: 15px;
+	}
+}

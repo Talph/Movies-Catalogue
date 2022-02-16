@@ -1,0 +1,16 @@
+.change-view {
+    color:#fff;
+}
+
+.change-view span {
+        margin-right: 15px;
+}
+
+button {
+    border: 1px solid #fff;
+    background: none;
+    color:#fff;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
